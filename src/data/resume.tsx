@@ -11,8 +11,6 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
 import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Java } from "@/components/ui/svgs/java";
-import { Csharp } from "@/components/ui/svgs/csharp";
-import { LaravelIcon } from "@/components/ui/svgs/laravel";
 import { AwsIcon } from "@/components/ui/svgs/aws";
 import { GithubIcon } from "@/components/ui/svgs/github";
 import { OracleIcon } from "@/components/ui/svgs/oracle";
@@ -37,7 +35,7 @@ export const DATA = {
     "Full Stack Developer specializing in MERN Stack, React.js, DevOps and scalable cloud-native applications.",
 
   summary: `
-I am a Full Stack Developer with 2.5 years of experience building scalable and high-performance web applications across healthcare, analytics, e-commerce and enterprise platforms.
+I am a Full Stack Developer with 2.5 years of experience building scalable and high-performance web applications across healthcare, analytics, e-commerce, DevOps and enterprise platforms.
 
 I specialize in MERN Stack development using MongoDB, Express.js, React.js and Node.js along with Next.js and TypeScript to build complete end-to-end applications.
 
@@ -53,9 +51,6 @@ I enjoy building modern, responsive and production-ready applications with clean
     { name: "TypeScript", icon: Typescript },
     { name: "React.js", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
-    { name: "Redux Toolkit", icon: ReactLight },
-    { name: "Zustand", icon: ReactLight },
-
     { name: "Node.js", icon: Nodejs },
     { name: "Express.js", icon: Nodejs },
     { name: "NestJS", icon: Nodejs },
@@ -71,22 +66,18 @@ I enjoy building modern, responsive and production-ready applications with clean
     { name: "AWS", icon: AwsIcon },
     { name: "Docker", icon: Docker },
     { name: "Kubernetes", icon: Kubernetes },
-    { name: "Terraform", icon: Docker },
+
     { name: "Jenkins", icon: Docker },
+    { name: "SonarQube", icon: Docker },
+    { name: "Trivy", icon: Docker },
+    { name: "Nexus", icon: Docker },
 
     { name: "REST APIs", icon: PostmanIcon },
-    { name: "GraphQL", icon: PostmanIcon },
-    { name: "GitHub", icon: GithubIcon },
     { name: "Postman", icon: PostmanIcon },
+    { name: "GitHub", icon: GithubIcon },
 
     { name: "Jest", icon: JestIcon },
     { name: "Playwright", icon: PlaywrightIcon },
-
-    { name: "Grafana", icon: Docker },
-    { name: "Prometheus", icon: Docker },
-
-    { name: "Agile", icon: GithubIcon },
-    { name: "Scrum", icon: GithubIcon },
   ],
 
   navbar: [
@@ -145,7 +136,7 @@ I enjoy building modern, responsive and production-ready applications with clean
       end: "Present",
 
       description:
-        "Built scalable full-stack web applications using React.js, Node.js and cloud-native technologies. Worked on dashboards, authentication systems, APIs, frontend optimization and deployment workflows while collaborating with Agile development teams.",
+        "Built scalable full-stack web applications using React.js, Node.js, AWS and cloud-native technologies. Worked on dashboards, APIs, authentication systems, frontend optimization and deployment workflows.",
     },
 
     {
@@ -157,7 +148,7 @@ I enjoy building modern, responsive and production-ready applications with clean
 
       location: "Solapur",
 
-      title: "Full Stack Web Developer",
+      title: "Full Stack Developer",
 
       logoUrl: "/vertex-logo.png",
 
@@ -166,7 +157,7 @@ I enjoy building modern, responsive and production-ready applications with clean
       end: "Sep 2024",
 
       description:
-        "Developed and maintained full-stack applications, integrated REST APIs, optimized frontend performance and collaborated with teams to deliver scalable software solutions across multiple business domains.",
+        "Developed and maintained scalable full-stack applications, integrated REST APIs, optimized frontend performance and collaborated with teams to deliver enterprise software solutions.",
     },
   ],
 
@@ -242,6 +233,44 @@ I enjoy building modern, responsive and production-ready applications with clean
     },
 
     {
+      title: "End-to-End CI/CD Deployment Using Jenkins & Tomcat",
+
+      href: "https://github.com/Vishalkondi",
+
+      dates: "2026",
+
+      active: true,
+
+      description:
+        "Successfully implemented a complete CI/CD pipeline for deploying an E-commerce web application using Jenkins, Maven and Apache Tomcat. Automated source code integration, build verification, WAR packaging and deployment workflows with continuous delivery practices.",
+
+      technologies: [
+        "Jenkins",
+        "CI/CD",
+        "Apache Tomcat",
+        "Maven",
+        "GitHub",
+        "Java",
+        "Docker",
+        "Linux",
+        "Shell Scripting",
+        "AWS",
+      ],
+
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Vishalkondi",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
+      image: "/jenkins-cicd.png",
+
+      video: "",
+    },
+
+    {
       title: "Tollywood Movie Ticket Booking Platform",
 
       href: "https://github.com/Vishalkondi",
@@ -289,7 +318,7 @@ I enjoy building modern, responsive and production-ready applications with clean
       active: true,
 
       description:
-        "Developed a scalable payroll management platform inspired by Zoho Payroll using microservices architecture. Built secure role-based access control for Admins, Managers and Employees, integrated PayPal APIs, implemented Redis caching and automated payroll email notifications using Gmail SMTP.",
+        "Developed a scalable payroll management platform inspired by Zoho Payroll using microservices architecture with Redis caching, PayPal integration and Dockerized deployment workflows.",
 
       technologies: [
         "React.js",
@@ -302,7 +331,6 @@ I enjoy building modern, responsive and production-ready applications with clean
         "Microservices",
         "PayPal API",
         "JWT Authentication",
-        "RBAC",
       ],
 
       links: [
@@ -334,7 +362,7 @@ I enjoy building modern, responsive and production-ready applications with clean
       active: true,
 
       description:
-        "Developed a modern full-stack e-commerce platform for water filtration products using Next.js and TypeScript. Built responsive product pages, authentication systems, reusable UI components and optimized frontend performance for seamless user experience.",
+        "Developed a modern full-stack e-commerce platform using Next.js and TypeScript with responsive UI components, authentication systems and optimized frontend architecture.",
 
       technologies: [
         "Next.js",
@@ -361,47 +389,6 @@ I enjoy building modern, responsive and production-ready applications with clean
       ],
 
       image: "/hind-aquatech.png",
-
-      video: "",
-    },
-
-    {
-      title: "Supermart – Grocery Delivery MERN Platform",
-
-      href: "https://github.com/Vishalkondi/supermart",
-
-      dates: "2026",
-
-      active: true,
-
-      description:
-        "Built a scalable grocery delivery platform using the MERN stack with responsive UI, real-time product management, shopping cart functionality, JWT authentication and Redux Toolkit state management.",
-
-      technologies: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "JavaScript",
-        "Tailwind CSS",
-        "Redux Toolkit",
-      ],
-
-      links: [
-        {
-          type: "Website",
-          href: "https://github.com/Vishalkondi/supermart",
-          icon: <Icons.globe className="size-3" />,
-        },
-
-        {
-          type: "Source",
-          href: "https://github.com/Vishalkondi/supermart",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-
-      image: "/supermart.png",
 
       video: "",
     },
