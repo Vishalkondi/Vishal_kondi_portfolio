@@ -32,14 +32,14 @@ export const DATA = {
   locationLink: "https://maps.google.com/?q=Mumbai",
 
   description:
-    "Full Stack Developer specializing in MERN Stack, React.js, DevOps and scalable cloud-native applications.",
+    "Full Stack Developer specializing in MERN Stack, React.js, DevOps, QA Automation and scalable cloud-native applications.",
 
   summary: `
 I am a Full Stack Developer with 2.5 years of experience building scalable and high-performance web applications across healthcare, analytics, e-commerce, DevOps and enterprise platforms.
 
 I specialize in MERN Stack development using MongoDB, Express.js, React.js and Node.js along with Next.js and TypeScript to build complete end-to-end applications.
 
-I have hands-on experience with AWS Cloud, Docker, Kubernetes, CI/CD pipelines, DevSecOps workflows, REST APIs, authentication systems and scalable frontend architectures.
+I have hands-on experience with AWS Cloud, Docker, Kubernetes, CI/CD pipelines, DevSecOps workflows, REST APIs, authentication systems, Selenium Automation Testing and scalable frontend architectures.
 
 I enjoy building modern, responsive and production-ready applications with clean UI/UX, optimized performance and maintainable code architecture.
 `,
@@ -51,9 +51,11 @@ I enjoy building modern, responsive and production-ready applications with clean
     { name: "TypeScript", icon: Typescript },
     { name: "React.js", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
+
     { name: "Node.js", icon: Nodejs },
     { name: "Express.js", icon: Nodejs },
     { name: "NestJS", icon: Nodejs },
+
     { name: "Java", icon: Java },
     { name: "Python", icon: Python },
     { name: "Go", icon: Golang },
@@ -389,6 +391,47 @@ I enjoy building modern, responsive and production-ready applications with clean
       ],
 
       image: "/hind-aquatech.png",
+
+      video: "",
+    },
+
+    {
+      title: "Supermart – Grocery Delivery MERN Platform",
+
+      href: "https://github.com/Vishalkondi/supermart",
+
+      dates: "2026",
+
+      active: true,
+
+      description:
+        "Built a scalable grocery delivery platform using the MERN stack with responsive UI, real-time product management, shopping cart functionality, JWT authentication and Redux Toolkit state management.",
+
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JavaScript",
+        "Tailwind CSS",
+        "Redux Toolkit",
+      ],
+
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/Vishalkondi/supermart",
+          icon: <Icons.globe className="size-3" />,
+        },
+
+        {
+          type: "Source",
+          href: "https://github.com/Vishalkondi/supermart",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
+      image: "/supermart.png",
 
       video: "",
     },
