@@ -24,22 +24,26 @@ import { PlaywrightIcon } from "@/components/ui/svgs/playwright";
 
 export const DATA = {
   name: "Vishal Kondi",
+
   initials: "VK",
+
   url: "https://github.com/Vishalkondi",
+
   location: "Mumbai, India",
+
   locationLink: "https://maps.google.com/?q=Mumbai",
 
   description:
-    "Full Stack Developer specializing in MERN Stack, React.js, DevOps, and scalable cloud-based applications.",
+    "Full Stack Developer specializing in MERN Stack, React.js, DevOps and scalable cloud-native applications.",
 
   summary: `
-I am a Full Stack Developer with 2.5 years of experience building scalable and high-performance web applications across healthcare, e-commerce, warehouse management and analytics platforms.
+I am a Full Stack Developer with 2.5 years of experience building scalable and high-performance web applications across healthcare, analytics, e-commerce and enterprise platforms.
 
-I specialize in MERN Stack development using MongoDB, Express.js, React.js and Node.js along with Next.js and TypeScript to build complete end-to-end solutions.
+I specialize in MERN Stack development using MongoDB, Express.js, React.js and Node.js along with Next.js and TypeScript to build complete end-to-end applications.
 
-I have hands-on experience with AWS Cloud, Docker, Kubernetes, CI/CD pipelines, GraphQL, REST APIs, authentication systems and scalable frontend architectures.
+I have hands-on experience with AWS Cloud, Docker, Kubernetes, CI/CD pipelines, DevSecOps workflows, REST APIs, authentication systems and scalable frontend architectures.
 
-I enjoy building modern, responsive and performance-optimized applications with clean UI/UX and maintainable code architecture.
+I enjoy building modern, responsive and production-ready applications with clean UI/UX, optimized performance and maintainable code architecture.
 `,
 
   avatarUrl: "/me.png",
@@ -54,9 +58,10 @@ I enjoy building modern, responsive and performance-optimized applications with 
 
     { name: "Node.js", icon: Nodejs },
     { name: "Express.js", icon: Nodejs },
+    { name: "NestJS", icon: Nodejs },
     { name: "Java", icon: Java },
     { name: "Python", icon: Python },
-    { name: "REST APIs", icon: PostmanIcon },
+    { name: "Go", icon: Golang },
 
     { name: "MongoDB", icon: MongoDBIcon },
     { name: "MySQL", icon: MySQLIcon },
@@ -66,11 +71,14 @@ I enjoy building modern, responsive and performance-optimized applications with 
     { name: "AWS", icon: AwsIcon },
     { name: "Docker", icon: Docker },
     { name: "Kubernetes", icon: Kubernetes },
-    { name: "Jenkins", icon: Docker },
     { name: "Terraform", icon: Docker },
+    { name: "Jenkins", icon: Docker },
 
+    { name: "REST APIs", icon: PostmanIcon },
+    { name: "GraphQL", icon: PostmanIcon },
     { name: "GitHub", icon: GithubIcon },
     { name: "Postman", icon: PostmanIcon },
+
     { name: "Jest", icon: JestIcon },
     { name: "Playwright", icon: PlaywrightIcon },
 
@@ -91,6 +99,7 @@ I enjoy building modern, responsive and performance-optimized applications with 
 
   contact: {
     email: "vishalkondi21@gmail.com",
+
     tel: "8625076298",
 
     social: {
@@ -120,65 +129,253 @@ I enjoy building modern, responsive and performance-optimized applications with 
   work: [
     {
       company: "Newgen Technomate Pvt. Ltd",
+
       href: "#",
+
       badges: [],
+
       location: "Pune",
+
       title: "Software Developer",
+
       logoUrl: "/company-logo.png",
+
       start: "Sep 2024",
+
       end: "Present",
 
       description:
-        "Built scalable web applications using React.js, Node.js and cloud technologies. Worked on dashboards, authentication systems, APIs and performance optimization while collaborating with Agile teams.",
+        "Built scalable full-stack web applications using React.js, Node.js and cloud-native technologies. Worked on dashboards, authentication systems, APIs, frontend optimization and deployment workflows while collaborating with Agile development teams.",
     },
 
     {
       company: "Rockline Solutions Pvt. Ltd",
+
       href: "#",
+
       badges: [],
+
       location: "Solapur",
+
       title: "Full Stack Web Developer",
+
       logoUrl: "/vertex-logo.png",
+
       start: "Jan 2023",
+
       end: "Sep 2024",
 
       description:
-        "Developed and maintained full-stack web applications, integrated APIs, optimized frontend performance and collaborated with teams to deliver scalable software solutions.",
+        "Developed and maintained full-stack applications, integrated REST APIs, optimized frontend performance and collaborated with teams to deliver scalable software solutions across multiple business domains.",
     },
   ],
 
   education: [
     {
       school: "Vidya Vikas Pratishthan, Solapur",
+
       href: "#",
+
       degree: "Bachelor of Technology (B.Tech)",
+
       logoUrl: "/bigce.png",
+
       start: "2020",
+
       end: "2023",
     },
 
     {
       school: "SES Polytechnic, Solapur",
+
       href: "#",
+
       degree: "Diploma",
+
       logoUrl: "/sesp.png",
+
       start: "2016",
+
       end: "2019",
     },
   ],
 
   projects: [
     {
-      title: "Supermart - Grocery Delivery MERN Platform",
+      title: "AWS DevSecOps CI/CD Pipeline Automation",
 
-      href: "https://github.com/Vishalkondi/supermart",
+      href: "https://github.com/Vishalkondi",
 
-      dates: "May 2026 - Present",
+      dates: "2026",
 
       active: true,
 
       description:
-        "Developed a full-stack grocery delivery platform using the MERN stack with responsive UI and real-time product management. Implemented category-based product listings, shopping cart functionality, dark mode support, authentication and dynamic product rendering.",
+        "Built and deployed an end-to-end production-grade CI/CD and DevSecOps pipeline on AWS using Jenkins, SonarQube, Nexus Repository, Docker, Trivy and New Relic. Automated code quality analysis, vulnerability scanning, artifact management, deployment workflows and infrastructure monitoring.",
+
+      technologies: [
+        "AWS EC2",
+        "Jenkins",
+        "Docker",
+        "Docker Compose",
+        "SonarQube",
+        "Nexus Repository",
+        "Trivy",
+        "New Relic",
+        "CI/CD",
+        "DevSecOps",
+        "Linux",
+        "Shell Scripting",
+      ],
+
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Vishalkondi",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
+      image: "/devsecops.png",
+
+      video: "",
+    },
+
+    {
+      title: "Tollywood Movie Ticket Booking Platform",
+
+      href: "https://github.com/Vishalkondi",
+
+      dates: "2026",
+
+      active: true,
+
+      description:
+        "Developed and deployed a full-stack movie ticket booking platform using Dockerized architecture with Tomcat, Nginx and MySQL. Implemented booking workflows, dynamic pricing calculations and responsive UI components with Maven build automation and multi-container deployment.",
+
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "Tomcat",
+        "Nginx",
+        "MySQL",
+        "Maven",
+        "Docker",
+        "Docker Compose",
+      ],
+
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Vishalkondi",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
+      image: "/movie-booking.png",
+
+      video: "",
+    },
+
+    {
+      title: "Zoho Payroll – Microservices Payroll Management System",
+
+      href: "https://github.com/Vishalkondi/zoho-payroll-clone",
+
+      dates: "2026",
+
+      active: true,
+
+      description:
+        "Developed a scalable payroll management platform inspired by Zoho Payroll using microservices architecture. Built secure role-based access control for Admins, Managers and Employees, integrated PayPal APIs, implemented Redis caching and automated payroll email notifications using Gmail SMTP.",
+
+      technologies: [
+        "React.js",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Docker Compose",
+        "Microservices",
+        "PayPal API",
+        "JWT Authentication",
+        "RBAC",
+      ],
+
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/Vishalkondi/zoho-payroll-clone",
+          icon: <Icons.globe className="size-3" />,
+        },
+
+        {
+          type: "Source",
+          href: "https://github.com/Vishalkondi/zoho-payroll-clone",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
+      image: "/payroll.png",
+
+      video: "",
+    },
+
+    {
+      title: "Hind Aquatech – Water Filter E-Commerce Platform",
+
+      href: "https://github.com/Vishalkondi/Hind_Aquatech.git",
+
+      dates: "2026",
+
+      active: true,
+
+      description:
+        "Developed a modern full-stack e-commerce platform for water filtration products using Next.js and TypeScript. Built responsive product pages, authentication systems, reusable UI components and optimized frontend performance for seamless user experience.",
+
+      technologies: [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+      ],
+
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/Vishalkondi/Hind_Aquatech.git",
+          icon: <Icons.globe className="size-3" />,
+        },
+
+        {
+          type: "Source",
+          href: "https://github.com/Vishalkondi/Hind_Aquatech.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
+      image: "/hind-aquatech.png",
+
+      video: "",
+    },
+
+    {
+      title: "Supermart – Grocery Delivery MERN Platform",
+
+      href: "https://github.com/Vishalkondi/supermart",
+
+      dates: "2026",
+
+      active: true,
+
+      description:
+        "Built a scalable grocery delivery platform using the MERN stack with responsive UI, real-time product management, shopping cart functionality, JWT authentication and Redux Toolkit state management.",
 
       technologies: [
         "React.js",
@@ -188,9 +385,6 @@ I enjoy building modern, responsive and performance-optimized applications with 
         "JavaScript",
         "Tailwind CSS",
         "Redux Toolkit",
-        "JWT Authentication",
-        "REST API",
-        "GitHub",
       ],
 
       links: [
@@ -208,108 +402,8 @@ I enjoy building modern, responsive and performance-optimized applications with 
       ],
 
       image: "/supermart.png",
+
       video: "",
     },
-
-    
-         
-
-    {
-  title: "Zoho Payroll – Microservices Payroll Management System",
-
-  href: "https://github.com/Vishalkondi/zoho-payroll-clone",
-
-  dates: "2026",
-
-  active: true,
-
-  description:
-    "Developed a scalable payroll management platform inspired by Zoho Payroll using a microservices architecture. Built secure role-based access control for Admins, Managers and Employees, integrated PayPal payment APIs for salary processing, implemented Redis caching for performance optimization and automated payroll receipt emails using Gmail SMTP services. Containerized all services with Docker and managed multi-service orchestration using Docker Compose for streamlined deployment and scalability.",
-
-  technologies: [
-    "React.js",
-    "NestJS",
-    "TypeScript",
-    "PostgreSQL",
-    "Redis",
-    "Docker",
-    "Docker Compose",
-    "Microservices",
-    "PayPal API",
-    "JWT Authentication",
-    "Role-Based Access Control",
-    "REST API",
-    "Node.js",
-    "Gmail SMTP",
-    "GitHub",
-  ],
-
-  links: [
-    {
-      type: "Website",
-      href: "https://github.com/Vishalkondi/zoho-payroll-clone",
-      icon: <Icons.globe className="size-3" />,
-    },
-
-    {
-      type: "Source",
-      href: "https://github.com/Vishalkondi/zoho-payroll-clone",
-      icon: <Icons.github className="size-3" />,
-    },
-  ],
-
-  image: "/payroll.png",
-
-  video: "",
-},
-    
-
-   
-     
-
-
-    {
-  title: "Hind Aquatech – Water Filter E-Commerce Platform",
-
-  href: "https://github.com/Vishalkondi/Hind_Aquatech.git",
-
-  dates: "2026",
-
-  active: true,
-
-  description:
-    "Developed a full-stack e-commerce platform for water filter products using Next.js and TypeScript. Built responsive product pages, shopping cart functionality, authentication, and dynamic product management features. Implemented scalable frontend architecture with reusable UI components and optimized performance for seamless user experience across devices.",
-
-  technologies: [
-    "Next.js",
-    "React.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "MongoDB",
-    "Express.js",
-    "REST API",
-    "JWT Authentication",
-    "GitHub",
-  ],
-
-  links: [
-    {
-      type: "Website",
-      href: "https://github.com/Vishalkondi/Hind_Aquatech.git",
-      icon: <Icons.globe className="size-3" />,
-    },
-
-    {
-      type: "Source",
-      href: "https://github.com/Vishalkondi/Hind_Aquatech.git",
-      icon: <Icons.github className="size-3" />,
-    },
-  ],
-
-  image: "/hind-aquatech.png",
-
-  video: "",
-},
   ],
 } as const;
